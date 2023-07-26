@@ -89,7 +89,7 @@
 }
 
 .ds4 .meta.pressed {
-    background: url) no-repeat center;
+    background: url() no-repeat center;
 }
 
 /*Not needed, but I like keeping them here for posterity*/
