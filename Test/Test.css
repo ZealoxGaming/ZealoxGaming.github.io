@@ -32,7 +32,7 @@
     position: absolute;
     width: 361px;
     height: 105px;
-    top: 308px;
+    top: 300px;
     left: 225px;
 }
 
@@ -43,22 +43,9 @@
     width: 94px;
 }
 
-.ds4.white .stick.pressed.left {
-    background-position-x: -96px;
-}
-
-.ds4.white .stick.pressed.right {
-    background-position-x: -192px;
-}
-
 .ds4.white .stick.left {
-    top: 0;
-    left: 0;
-}
-
-.ds4.white .stick.right {
-    top: calc(100% - 105px);
-    left: calc(100% - 105px);
+    top: 20;
+    left: 20;
 }
 
 .ds4.white .face {
