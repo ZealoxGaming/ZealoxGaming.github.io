@@ -1,3 +1,4 @@
+
 /*BEGIN ZealoxGaming Controller Styling*/
 .controller {
     background-size: auto auto;
@@ -23,7 +24,7 @@
 }
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
     width: 917px;
-    height: 130px;
+    height: 135px;
     position: absolute;
     left: 163px;
     top: 53px;
