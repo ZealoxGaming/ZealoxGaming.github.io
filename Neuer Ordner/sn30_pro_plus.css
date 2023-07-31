@@ -1,0 +1,261 @@
+/*BEGIN SN30 Pro+ Controller Styling*/
+/*This class defines the base attributes of the skin*/
+.controller {
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.controller.custom{
+    background: url(base.png);
+    background-size: 720px auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 540px;
+    width: 720px;
+}
+
+.custom.disconnected {
+    background: url(disconnected.png);
+    background-size: 720px auto;
+    background-repeat: no-repeat;
+}
+
+.custom.disconnected div {
+    display: none;
+}
+
+.custom .triggers{
+    width: 720px;
+    height: 540px;
+    position: absolute;
+    left: 60px;
+    top: 11px;
+    opacity:1;
+}
+
+.custom .trigger{
+    width:68px;
+    height: 74px;
+}
+
+.custom .trigger.left{
+    background: url(L2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center 1px;
+    float: left;
+    opacity: 1;
+}
+
+.custom .trigger.left.pressed{ 
+}
+
+.custom .trigger.right{
+    background: url(R2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    float: right;
+    opacity: 1;
+}
+
+.custom .trigger.right.pressed{
+}
+
+/* The bumpers follow the same methodology as the triggers in terms of
+placement */
+.custom .bumper{
+    width: 720px;
+    height: 540px;
+}
+
+.custom .bumpers{
+    position: absolute;
+    width: 78px;
+    height: 18px;
+    left: 72px;
+    top: 86px;
+}
+
+.custom .bumper.pressed{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    opacity: 1;
+}
+
+.custom .bumper.left{
+  background: url("https://azzco.github.io/gamepadviewer-skins/8bitdo-sn30-pro-plus/l.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  float: left;
+}
+
+.custom .bumper.left.pressed{
+    background: url(L1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    float: left;
+}
+
+.custom .bumper.right{
+    background: url("https://azzco.github.io/gamepadviewer-skins/8bitdo-sn30-pro-plus/r.svg");
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    float: right;
+}
+
+.custom .bumper.right.pressed{
+    background: url(R1.png);
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    float: right;
+}
+
+.custom .arrows{
+    position: absolute;
+    width: 720px;
+    height: 540px;
+    top: 217px;
+    left: 325px;
+    /* background-color:  pink; */
+}
+
+.custom .abxy{
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    top: 150px;
+    right: 50px;
+}
+
+.custom .button{
+    position: absolute;
+    width: 82px;
+    height: 81px;
+    background: url("https://azzco.github.io/gamepadviewer-skins/8bitdo-sn30-pro-plus/face.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.custom .button.pressed{
+    background: url("https://azzco.github.io/gamepadviewer-skins/8bitdo-sn30-pro-plus/face_lit.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.custom .a{
+    top: 119px;
+    left: 89px;
+}
+.custom .b{
+    top: 65px;
+    left: 159px;
+}
+.custom .x{
+    top: 62px;
+    left: 15px;
+}
+.custom .y{
+    top: 8px;
+    left: 85px;
+}
+/* Analog sticks follow the same principles as the triggers in terms of positioning
+Note that the rotation of the sticks in hard coded with javascript, so it applies 
+the CSS inline. */
+.custom .sticks{
+    position: absolute;
+    width: 378px;
+    height: 134px;
+    top: 324px;
+    left: 245px;
+}
+.custom .stick{
+    position: absolute;
+    background: url("https://azzco.github.io/gamepadviewer-skins/8bitdo-sn30-pro-plus/stick.svg");
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-position: 0 0;
+    height:134px;
+    width: 135px;
+}
+.custom .stick.pressed{
+    background: url("https://azzco.github.io/gamepadviewer-skins/8bitdo-sn30-pro-plus/stick_lit.svg");
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-position: 0 0;
+}
+.custom .stick.left{
+    top: 0;
+    left: 0;
+}
+.custom .stick.right{
+    top: 0;
+    left: 216px;
+}
+/* Dpad possitioning and sizing */
+.custom .dpad{
+    position: absolute;
+    width: 196px;
+    height: 194px;
+    top: 157px;
+    left: 71px;
+    opacity: 100%;
+}
+.custom .face{
+    background: url("https://azzco.github.io/gamepadviewer-skins/8bitdo-sn30-pro-plus/dpad.svg");
+    background-size: 70px 28px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: absolute;
+}
+.custom .face.pressed{
+    background: url("https://azzco.github.io/gamepadviewer-skins/8bitdo-sn30-pro-plus/dpad_lit.svg");
+    background-size: 70px 28px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.custom .face.up{
+    left: 62px;
+    top: 18px;
+    -webkit-transform:
+    rotate(270deg);
+    width: 65px;
+    height: 39px;
+    
+}
+.custom .face.down{
+    left: 94px;
+    top: 114px;
+    -webkit-transform:
+    rotate(90deg);
+    width: 65px;
+    height: 80px;
+    opacity: 1;
+    
+}
+.custom .face.left{
+    top: 82px;
+    left: 10px;
+    -webkit-transform: rotate(180deg);
+    width: 65px;
+    height: 42px;
+    
+}
+.custom .face.right{
+    top: 68px;
+    left: 127px;
+    width: 65px;
+    height: 42px;
+    
+}
+
+/*END SN30 Pro+ Controller Styling*/
