@@ -52,7 +52,7 @@
 }
 .custom .bumpers{
     position: absolute;
-    width: 662px;
+    width: 917px;
     height: 39px;
     left: 258px;
     top: 198px;
@@ -65,28 +65,28 @@
 }
 .custom .bumper.left{
   background: url(img/bumper-l.png);
-  background-size: 90% 90%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center bottom;
   float: left;
 }
 .custom .bumper.left.pressed{
     background: url(img/bumper-l.png);
-    background-size: 90% 90%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center bottom;
     float: left;
 }
 .custom .bumper.right{
     background: url(img/bumper-l.png);
-    background-size: 90% 90%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center bottom;
     float: right;
 }
 .custom .bumper.right.pressed{
     background: url(img/bumprt-r.png);
-    background-size: 90% 90%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center bottom;
     float: right;
