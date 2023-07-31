@@ -14,14 +14,17 @@
     height: 1080px;
     width: 1440px;
 }
+
 .custom.disconnected {
     background: url(img/disconnected.png);
     background-size: 1440px auto;
     background-repeat: no-repeat;
 }
+
 .custom.disconnected div {
     display: none;
 }
+
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
     width: 917px;
     height: 150px;
@@ -30,35 +33,40 @@
     top: 50px;
     opacity:1;
 }
+
 .custom .trigger{/* These are the actual triggers themselves */
-    width:148px;
+    width:160px;
     height: 140px;
 }
 
-/* The left and right classes below are used to position the triggers
-within the div they're contained in. Since their positions is realtive
-to the size of the parent element, we simply resize the parent element 
-above to achieve the desired position. */
 .custom .trigger.left{
     background: url(img/L2.png);
     background-repeat: no-repeat;
-    background-position: center;
-    float: left;
-    opacity: 1;
 }
-.custom .trigger.left.pressed{ 
+
+.custom .trigger.left.pressed{
+    width: 917px;
+    height: 140px;
+    position: absolute;
+    left: 263px;
+    top: 53px;
+    opacity:1;
 }
+
 .custom .trigger.right{
     background: url(img/R2.png);
     background-repeat: no-repeat;
-    background-position: center bottom;
-    float: right;
-    opacity: 1;
 }
+
 .custom .trigger.right.pressed{
+    width: 917px;
+    height: 140px;
+    position: absolute;
+    left: 263px;
+    top: 53px;
+    opacity:1;
 }
-/* The bumpers follow the same methodology as the triggers in terms of
-placement */
+
 .custom .bumper{
     width: 239px;
     height: 48px;
