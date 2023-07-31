@@ -8,16 +8,16 @@
 
 .controller.custom{
     background: url(base.png);
-    background-size: 720px auto;
+    background-size: 1440px auto;
     background-repeat: no-repeat;
     background-position: center bottom;
-    height: 540px;
-    width: 720px;
+    height: 1080px;
+    width: 1440px;
 }
 
 .custom.disconnected {
     background: url(disconnected.png);
-    background-size: 720px auto;
+    background-size: 1440px auto;
     background-repeat: no-repeat;
 }
 
@@ -26,17 +26,17 @@
 }
 
 .custom .triggers{
-    width: 720px;
-    height: 540px;
+    width: 917px;
+    height: 135px;
     position: absolute;
-    left: 60px;
-    top: 11px;
+    left: 263px;
+    top: 53px;
     opacity:1;
 }
 
 .custom .trigger{
-    width:68px;
-    height: 74px;
+    width:149px;
+    height: 140px;
 }
 
 .custom .trigger.left{
@@ -66,16 +66,16 @@
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
 .custom .bumper{
-    width: 720px;
-    height: 540px;
+    width: 926px;
+    height: 39px;
 }
 
 .custom .bumpers{
     position: absolute;
-    width: 78px;
-    height: 18px;
-    left: 72px;
-    top: 86px;
+    width:155px;
+    height: 36px;
+    left: 258px;
+    top: 198px;
 }
 
 .custom .bumper.pressed{
@@ -128,52 +128,55 @@ placement */
 
 .custom .abxy{
     position: absolute;
-    width: 250px;
-    height: 200px;
-    top: 150px;
-    right: 50px;
+    width: 283px;
+    height: 282px;
+    top: 275px;
+    right: 169px;
 }
 
 .custom .button{
     position: absolute;
-    width: 82px;
-    height: 81px;
+    width: 91px;
+    height: 91px;
     background: url("https://azzco.github.io/gamepadviewer-skins/8bitdo-sn30-pro-plus/face.svg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center bottom;
 }
+
 .custom .button.pressed{
     background: url("https://azzco.github.io/gamepadviewer-skins/8bitdo-sn30-pro-plus/face_lit.svg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center bottom;
 }
+
 .custom .a{
     top: 119px;
     left: 89px;
 }
+
 .custom .b{
     top: 65px;
     left: 159px;
 }
-.custom .x{
+
+.custom x{
     top: 62px;
     left: 15px;
 }
+
 .custom .y{
     top: 8px;
     left: 85px;
 }
-/* Analog sticks follow the same principles as the triggers in terms of positioning
-Note that the rotation of the sticks in hard coded with javascript, so it applies 
-the CSS inline. */
+
 .custom .sticks{
     position: absolute;
-    width: 378px;
-    height: 134px;
-    top: 324px;
-    left: 245px;
+    width: 595px;
+    height: 162px;
+    top: 493px;
+    left: 425px;
 }
 .custom .stick{
     position: absolute;
@@ -203,10 +206,10 @@ the CSS inline. */
 /* Dpad possitioning and sizing */
 .custom .dpad{
     position: absolute;
-    width: 196px;
-    height: 194px;
-    top: 157px;
-    left: 71px;
+    width: 226px;
+    height: 225px;
+    top: 300px;
+    left: 200px;
     opacity: 100%;
 }
 .custom .face{
