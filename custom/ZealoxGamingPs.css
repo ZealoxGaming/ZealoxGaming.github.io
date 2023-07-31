@@ -24,15 +24,15 @@
 }
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
     width: 917px;
-    height: 140px;
+    height: 150px;
     position: absolute;
     left: 263px;
-    top: 53px;
+    top: 50px;
     opacity:1;
 }
 .custom .trigger{/* These are the actual triggers themselves */
     width:148px;
-    height: 135px;
+    height: 140px;
 }
 
 /* The left and right classes below are used to position the triggers
