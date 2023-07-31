@@ -1,0 +1,264 @@
+/*BEGIN ZealoxGaming Controller Styling*/
+.controller.custom{
+    background: url(img/base.png);
+    width: 1440px;
+    height: 1080px;
+    margin-left: -375px;
+    margin-top: -285px;
+}
+.custom.white{
+}
+.custom.disconnected {
+    background: url(img/disconnected.png);    
+}
+.custom.disconnected div {
+    display: none;
+}
+.custom .triggers{
+    width: 917px;
+    height: 135px;
+    position: absolute;
+    left: 263px;
+    top: 53px;
+    opacity:1;
+}
+.custom .trigger{
+    width:148px;
+    height: 135px;
+}
+.custom .trigger.left{
+    background: url(img/L2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center 1px;
+    float: left;
+    opacity: 1;
+}
+.custom .trigger.left.pressed{ 
+}
+.custom .trigger.right{
+    background: url(img/R2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    float: right;
+    opacity: 1;
+}
+.custom .trigger.right.pressed{
+}
+.custom .bumper{
+    width: 155px;
+    height: 36px;
+}
+.custom .bumpers{
+    position: absolute;
+    width: 662px;
+    height: 39px;
+    left: 258px;
+    top: 198px;
+}
+.custom .bumper.pressed{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    opacity: 1;
+}
+.custom .bumper.left{
+  background: url();
+  background-size: 90% 90%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  float: left;
+}
+.custom .bumper.left.pressed{
+    background: url(img/bumper-l);
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    float: left;
+}
+.custom .bumper.right{
+    background: url();
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    float: right;
+}
+.custom .bumper.right.pressed{
+    background: url(img/bumprt-r);
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    float: right;
+}
+.custom .quadrant{
+    position: absolute;
+    /* background: url();
+    height: 45px;
+    width: 45px;
+    top: 258px;
+    left: 354px;
+    z-index: 0;
+}
+.custom .p0{
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.custom .p1{
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.custom .p2{
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+.custom .p3{
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.custom .arrows{
+    position: absolute;
+    width: 141px;
+    height: 33px;
+    top: 240px;
+    left: 399px;
+}
+.custom .back, .custom .start{
+    background: url(img/ss.png);
+    width: 104px;
+    height: 86px;
+    opacity: 0;
+}
+.custom .back.pressed, .custom .start.pressed{
+    opacity: 1;
+}
+.custom .back{
+    float: left;
+}
+.custom .start{
+    float: right;
+    top: 0px;
+    left: 119px;
+    position: absolute;
+}
+.custom .abxy{
+    position: absolute;
+    width: 257px;
+    height: 264px;
+    top: 140px;
+    left: 720px;
+    /*background: url(http://i.imgur.com/tE4M2o4.png);*/
+    /* background-size: contain; */
+}
+.custom .button{
+    position: absolute;
+    /*background: url(http://mrmcpowned.com/gamepad/xbox-assets/abxy.svgz);*/
+    width: 84px;
+    height: 84px;
+    opacity:0;
+}
+.custom .button.pressed{
+    margin-top: 5px;
+    opacity: 1;
+}
+.custom .a{
+    top: 180px;
+    left: 108px;
+    background: url(img/x.png);
+}
+.custom .b{
+    top: 99px;
+    right: -40px;
+    background: url(img/x.png);
+}
+.custom .x{
+    top: 99px;
+    left: 8px;
+    background: url(img/x.png);
+    width: 84px;
+    height: 84px;
+}
+.custom .y{
+    left: 108px;
+    top: 19px;
+    background: url(img/x.png);
+}
+.custom .sticks{
+    position: absolute;
+    width: 680px;
+    height: 160px;
+    top: 370px;
+    left: 210px;
+    /*background: url(img/stick.png);*/
+    /*background-position: -130px -280px;*/
+    /*-webkit-clip-path: circle(50% at center);*/
+    clip-path: circle(50% at center);
+}
+.custom .stick{
+    position: absolute;
+    background: url(img/stick.png);
+    background-position: 0px 0;
+    height: 130px;
+    width: 140px;
+}
+.custom .stick.pressed{
+    background-position: -138px 0;
+}
+.custom .stick.left{
+    top: 14px;
+    left: 111px;
+}
+.custom .stick.right{
+    top: 14px;
+    left: 421px;
+}
+.custom .dpad{
+    position: absolute;
+    width: 192px;
+    height: 192px;
+    top: 191px;
+    left: 131px;
+}
+.custom .face{
+    /*background: url(http://mrmcpowned.com/gamepad/xbox-assets/dpad.svgz);*/
+    position: absolute;
+    opacity: 0;
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+.custom .face.up{
+    left: 62px;
+    top: 0px;
+    width: 70px;
+    height: 60px;
+    background: url(img/up.png);
+}
+.custom .face.down{
+    left: 62px;
+    bottom: 0;
+    width: 70px;
+    height: 60px;
+    background: url(img/down.png);
+}
+.custom .face.left{
+    width: 60px;
+    height: 138px;
+    top: 21px;
+    left: 0;
+    background: url(img/left.png);
+}
+.custom .face.right{
+    width: 59px;
+    height: 71px;
+    top: 61px;
+    right: 0;
+    background: url(img/right.png);
+}
+.custom.half{
+    margin-top: -315px;
+}
+.custom{
+    background: no-repeat center;
+}
+/*END 8Bitdo Pro SF30 Styling*/
