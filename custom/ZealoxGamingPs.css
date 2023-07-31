@@ -41,9 +41,8 @@ to the size of the parent element, we simply resize the parent element
 above to achieve the desired position. */
 .custom .trigger.left{
     background: url(img/L2.png);
-    background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-position: center 1px;
+    background-position: center;
     float: left;
     opacity: 1;
 }
@@ -51,7 +50,6 @@ above to achieve the desired position. */
 }
 .custom .trigger.right{
     background: url(img/R2.png);
-    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center bottom;
     float: right;
@@ -73,7 +71,6 @@ placement */
     top: 86px;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
-    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center bottom;
     opacity: 1;
