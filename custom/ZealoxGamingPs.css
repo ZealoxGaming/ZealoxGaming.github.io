@@ -71,7 +71,7 @@
   float: left;
 }
 .custom .bumper.left.pressed{
-    background: url(img/bumper-l);
+    background: url(img/bumper-l.png);
     background-size: 90% 90%;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -85,7 +85,7 @@
     float: right;
 }
 .custom .bumper.right.pressed{
-    background: url(img/bumprt-r);
+    background: url(img/bumprt-r.png);
     background-size: 90% 90%;
     background-repeat: no-repeat;
     background-position: center bottom;
