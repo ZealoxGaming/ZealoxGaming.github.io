@@ -1,0 +1,40 @@
+/*BEGIN Xbox One Controller Styling*/
+
+.controller.xbox {
+    background: url(green/green_base.gif);
+}
+
+.xbox.disconnected {
+    background: url(green/disconnected.gif);
+    display: none;
+}
+
+.xbox .trigger {
+    background: url(green/green_trigger.png);
+}
+
+.xbox .bumper {
+    background: url(green/green_bumper.png);
+}
+
+.xbox .quadrant {
+    background: url(green/green_quadrant.png);
+}
+
+.xbox .back, .xbox .start {
+    background: url(green/green_start-select.png);
+}
+
+.xbox .button {
+    background: url(green/green_abxy.png);
+}
+
+.xbox .stick {
+    background: url(green/green_stick.png);
+}
+
+.xbox .face {
+    background: url(green/green_dpad.png);
+}
+
+/*END Xbox One Controller Styling*/
