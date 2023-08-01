@@ -1,5 +1,6 @@
 /*BEGIN PS4 White Controller Styling*/
 .controller.ds4.white {
+    filter: saturate(50%);
     background-image: url(basemod.png);
 }
 
