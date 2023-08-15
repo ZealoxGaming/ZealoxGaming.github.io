@@ -1,0 +1,34 @@
+/*BEGIN PS4 White Controller Styling*/
+.controller.ds4.white {
+    background-image: url(KCbase.gif);
+}
+
+.ds4.white.disconnected {
+    background: url(KCdisconnected.png);
+}
+
+.ds4.white .trigger {
+    background-image: url(KCtriggers.png);
+}
+
+.ds4.white .bumper {
+    background-image: url(KCbumper.png);
+}
+
+.ds4.white .back, .ds4 .start {
+    background-image: url(KCstart.png);
+}
+
+.ds4.white .button {
+    background-image: url(KCface.png);
+}
+
+.ds4.white .stick {
+    background-image: url(KCsticks.png);
+}
+
+.ds4.white .face {
+    background-image: url(KCdpad.png);
+}
+
+/*END PS4 White Controller Styling*/
