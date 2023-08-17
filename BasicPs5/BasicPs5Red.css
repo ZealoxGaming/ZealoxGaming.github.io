@@ -79,7 +79,7 @@
 
 .ds4 .touchpad.pressed {
     background: url(Red/Touchpad.png) no-repeat center;
-    opacity: 0.5;
+    opacity: 1;
 }
 
 .ds4 .meta {
