@@ -9,36 +9,18 @@
 
 .ds4.white .trigger {
     background-image: url(triggers.png);
-    opacity: 0;
-}
-
-.ds4.white .trigger.left {
-    opacity: 0.4;
-}
-
-.ds4.white .trigger.right {
-    opacity: 0.4;
 }
 
 .ds4.white .bumper {
     background-image: url(bumper.png);
 }
 
-.ds4.white .bumper.pressed {
-    opacity: 0.4;
-}
-
 .ds4.white .touchpad.pressed {
     background-image: url(touchpad.png);
-    opacity: 0.4;
 }
 
 .ds4.white .back, .ds4 .start {
     background-image: url(start.png);
-}
-
-.ds4.white .back.pressed, .ds4 .start.pressed {
-    opacity: 0.4;
 }
 
 .ds4.white .button {
