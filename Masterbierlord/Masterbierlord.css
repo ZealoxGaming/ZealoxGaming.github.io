@@ -12,11 +12,11 @@
     opacity: 0;
 }
 
-.ds4 .trigger.left {
+.ds4.white .trigger.left {
     opacity: 0.4;
 }
 
-.ds4 .trigger.right {
+.ds4.white .trigger.right {
     opacity: 0.4;
 }
 
@@ -24,7 +24,7 @@
     background-image: url(bumper.png);
 }
 
-.ds4 .bumper.pressed {
+.ds4.white .bumper.pressed {
     opacity: 0.4;
 }
 
