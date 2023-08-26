@@ -1,0 +1,215 @@
+/*BEGIN THRUSTMASTER eSWAP Controller Styling*/
+
+.controller.custom{
+    background: url(base.png); 
+    height: 889px;
+    width: 1000px;
+    background-repeat:no-repeat;
+}
+.custom.disconnected { 
+    background: url(disconnected.png);
+}
+.custom.disconnected div {
+    display: none;
+}
+ .custom .triggers{ 
+    position: absolute;
+    background-repeat:no-repeat;
+} 
+.custom .trigger{
+    height: 100px;
+    width: 1000px;
+
+    background-repeat:no-repeat;
+}
+.custom .trigger.left{ 
+    height: 180px;
+    width: 1000px;
+    background: url(L2.png);
+    position: absolute;
+    background-repeat:no-repeat;
+}
+.custom .trigger.right{
+    height: 180px;
+    width: 1000px;
+    background: url(R2.png);
+    position: absolute;
+    background-repeat:no-repeat;
+}
+.custom .bumper{
+opacity: 0;
+}
+.custom .bumper.pressed{ 
+    opacity: 1;
+}
+.custom .bumper.right{
+    height: 889px;
+    width: 1000px;
+    background: url(R1.png);
+    position: absolute;
+    background-repeat:no-repeat;
+}
+.custom .bumper.left{
+    height: 889px;
+    width: 1000px;
+    background: url(L1.png);
+    position: absolute;
+    background-repeat:no-repeat;
+}
+.custom .arrows{
+    position: absolute;
+    width: 205px;
+    height: 19px;
+    top: 250px;
+    left: 291px;
+    background-repeat:no-repeat;
+}
+.custom .back{ /* share */
+    opacity: 0;
+    position: absolute;
+}
+.custom .start{ /* options */
+    opacity: 0;
+    position: absolute;
+}
+.custom .back.pressed{
+    height: 889px;
+    width: 1000px;
+    left: -291px;
+    top: -250px;
+    background: url(Share.png);
+    position: absolute;
+    opacity: 1;
+} 
+.custom .start.pressed{
+    height: 889px;
+    width: 1000px;
+    left: -291px;
+    top: -250px;
+    background: url(Options.png);
+    opacity: 1;
+}
+.custom .abxy{
+    position: absolute;
+    background-repeat:no-repeat;
+}
+.custom .button{
+    position: absolute;
+}
+.custom .button.pressed{
+    background-position-y: -00px;
+    margin-top: 0px;
+}
+.custom .a.pressed{ /* X on PS4*/
+    background: url(X.png); 
+    height: 889px;
+    width: 1000px;
+    background-repeat:no-repeat;
+}
+.custom .b.pressed{ /* circle on PS4*/
+    background: url(O.png);
+    height: 889px;
+    width: 1000px;
+    background-repeat:no-repeat;
+}
+.custom .x.pressed{ /* square on PS4*/
+    background: url(S.png); 
+    height: 889px;
+    width: 1000px;
+    background-repeat:no-repeat;
+}
+.custom .y.pressed{ /* Triangle on PS4*/
+    background: url(T.png) ; 
+    height: 889px;
+    width: 1000px;
+    background-repeat:no-repeat;
+}
+.custom .sticks{    
+    left: 299px;
+    top: 500px;
+    position: absolute;
+    background-repeat:no-repeat;
+}
+.custom .stick.{
+
+    position: absolute;
+}
+.custom .stick.pressed.left{
+    position: absolute;
+    background: url(L3.png);
+    height: 113px;
+    width: 113px;
+    background-repeat:no-repeat;
+}
+.custom .stick.pressed.right{
+    position: absolute;
+    background: url(R3.png);
+    height: 113px;
+    width: 113px;
+    background-repeat:no-repeat;
+}
+.custom .stick.left{
+    position: absolute;
+    background: url(LS.png);
+    left: -158px;
+    top: -160px;
+    height: 113px;
+    width: 113px;
+    background-repeat:no-repeat;
+}
+.custom .stick.right{
+    position: absolute;
+    background: url(RS.png);
+    left: 297px;
+    height: 113px;
+    width: 113px;
+    background-repeat:no-repeat;
+}
+.custom .dpad{
+    height: 889px;
+    width: 1000px;
+    background-repeat:no-repeat;
+}
+.custom .face{
+    position: absolute;
+}
+.custom .face.right.pressed{
+    background: url(RIGHT.png); 
+    height: 889px;
+    width: 1000px;
+    top: 160px;
+    left: 157px;
+    background-repeat:no-repeat;
+}
+.custom .face.left.pressed{
+    background: url(LEFT.png); 
+    height: 889px;
+    width: 1000px;
+    top: 160px;
+    left: 157px;
+    background-repeat:no-repeat;
+}
+.custom .face.up.pressed{
+    background: url(UP.png); 
+    height: 889px;
+    width: 1000px;    
+    top: 160px;
+    left: 157px;
+    background-repeat:no-repeat;
+}
+.custom .face.down.pressed{ 
+    background: url(DOWN.png); 
+    height: 889px;
+    width: 1000px;    
+    top: 160px;
+    left: 157px;
+    background-repeat:no-repeat;
+}
+.custom .touchpad.pressed{
+    position:absolute;
+    height: 889px;
+    width: 1000px;
+
+    background: url(touchpad.png);
+    background-repeat:no-repeat; 
+/*END THRUSTMASTER eSWAP Controller Styling*/
