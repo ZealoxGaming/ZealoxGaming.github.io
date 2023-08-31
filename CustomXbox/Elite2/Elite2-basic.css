@@ -199,44 +199,42 @@ opacity: 0;
     background-repeat:no-repeat;
 }
 
-.custom .dpad{
+.fstick {
     width: 812px;
     height: 715px;
-    background-repeat:no-repeat;
+    /*background: url(Dpad/dpad.png);*/
 }
 
-.custom .face{
-    background: url(dpad.png);
-    position: absolute;
+.fstick.up {
+    background: url(Dpad/dpad-U.png);
 }
 
-.custom .face.right.pressed{
-    background: url(RIGHT.png); 
-    width: 812px;
-    height: 715px;
-    background-repeat:no-repeat;
+.fstick.down {
+    background: url(Dpad/dpad-D.png);
 }
 
-.custom .face.left.pressed{
-    background: url(LEFT.png); 
-    width: 812px;
-    height: 715px;
-    background-repeat:no-repeat;
+.fstick.left {
+    background: url(Dpad/dpad-L.png);
 }
 
-.custom .face.up.pressed{
-    background: url(UP.png); 
-    width: 812px;
-    height: 715px;
-    background-repeat:no-repeat;
+.fstick.right {
+    background: url(Dpad/dpad-R.png);
 }
 
-.custom .face.down.pressed{ 
-    background: url(DOWN.png); 
-    width: 812px;
-    height: 715px;
-    background-repeat:no-repeat;
+.fstick.up.right {
+    background: url(Dpad/dpad-UR.png);
 }
 
+.fstick.up.left {
+    background: url(Dpad/dpad-UL.png);
+}
+
+.fstick.down.right {
+    background: url(Dpad/dpad-DR.png);
+}
+
+.fstick.down.left {
+    background: url(Dpad/dpad-DL.png);
+}
 
 /*END Xbox Elite 2 Controller Styling*/
