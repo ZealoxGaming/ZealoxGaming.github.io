@@ -155,7 +155,7 @@ opacity: 0;
 
 .custom .sticks{    
     left: 334px;
-    top: 498px;
+    top: 455px;
     position: absolute;
     background-repeat:no-repeat;
 }
@@ -191,7 +191,7 @@ opacity: 0;
 .custom .stick.right{
     position: absolute;
     background: url(RS.png);
-    left: 426px;
+    left: 403px;
     height: 163px;
     width: 163px;
     background-repeat:no-repeat;
