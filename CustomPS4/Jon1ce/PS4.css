@@ -159,6 +159,7 @@ opacity: 0;
     top: 498px;
     position: absolute;
     background-repeat:no-repeat;
+    filter:brightness(0.9);
 }
 
 .custom .stick.{
