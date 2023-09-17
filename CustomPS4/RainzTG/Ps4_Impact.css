@@ -1,4 +1,4 @@
-/*BEGIN Ps4 Impac Controller Styling*/
+/*BEGIN Ps4 Impact Controller Styling*/
 
 .controller.custom{
     background: url(base.png); 
@@ -147,8 +147,8 @@ opacity: 0;
 }
 
 .custom .sticks{    
-    left: 100px;
-    top: 100px;
+    left: 225px;
+    top: 273px;
     position: absolute;
     background-repeat:no-repeat;
 }
@@ -184,7 +184,7 @@ opacity: 0;
 .custom .stick.right{
     position: absolute;
     background: url(RS.png);
-    left: 100px;
+    left: 252px;
     height: 99px;
     width: 99px;
     background-repeat:no-repeat;
@@ -237,4 +237,4 @@ opacity: 0;
     background-repeat:no-repeat;
 }
 
-/*END Ps4 Impac Controller Styling*/
+/*END Ps4 Impact Controller Styling*/
