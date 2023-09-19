@@ -147,8 +147,8 @@
 }
 
 .custom .sticks{    
-    left: 334px;
-    top: 498px;
+    left: 206px;
+    top:318px;
     position: absolute;
     background-repeat:no-repeat;
 }
@@ -184,7 +184,8 @@
 .custom .stick.right{
     position: absolute;
     background: url(RS.png);
-    left: 426px;
+    left: 471px;
+    top: 184px;
     height: 148px;
     width: 148px;
     background-repeat:no-repeat;
