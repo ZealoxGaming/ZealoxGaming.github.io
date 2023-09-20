@@ -154,8 +154,8 @@
 }
 
 .custom .sticks{    
-    left: 334px;
-    top: 498px;
+    left: 454px;
+    top: 467px;
     position: absolute;
     background-repeat:no-repeat;
 }
@@ -167,33 +167,33 @@
 .custom .stick.pressed.left{
     position: absolute;
     background: url(L3.png);
-    height: 163px;
-    width: 163px;
+    height: 190px;
+    width: 190px;
     background-repeat:no-repeat;
 }
 
 .custom .stick.pressed.right{
     position: absolute;
     background: url(R3.png);
-    height: 163px;
-    width: 163px;
+    height: 190px;
+    width: 190px;
     background-repeat:no-repeat;
 }
 
 .custom .stick.left{
     position: absolute;
     background: url(LS.png);
-    height: 163px;
-    width: 163px;
+    height: 190px;
+    width: 190px;
     background-repeat:no-repeat;
 }
 
 .custom .stick.right{
     position: absolute;
     background: url(RS.png);
-    left: 426px;
-    height: 163px;
-    width: 163px;
+    left: 405px;
+    height: 190px;
+    width: 190px;
     background-repeat:no-repeat;
 }
 
