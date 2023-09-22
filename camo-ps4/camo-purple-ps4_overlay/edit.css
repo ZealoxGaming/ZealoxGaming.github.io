@@ -1,0 +1,51 @@
+.controller.ds4 {
+    background: url(base.png);
+    height: 598px;
+    width: 806px;
+    /*    margin-left: -403px;
+        margin-top: -280px;*/
+}
+
+
+.ds4 .trigger {
+    width: 99px;
+    height: 100%;
+    background: url(triggers.png);
+    opacity: 0;
+}
+
+
+.ds4 .bumper {
+    width: 99px;
+    height: 23px;
+    background: url(bumper.png) no-repeat;
+    opacity: 0;
+}
+
+.ds4 .back, .ds4 .start {
+    background: url(start.png);
+    width: 28px;
+    height: 46px;
+    opacity: 0;
+}
+
+.ds4 .button {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: url(face.png);
+}
+
+
+.ds4 .stick {
+    position: absolute;
+    background: url(sticks.png);
+    height: 94px;
+    width: 94px;
+}
+
+
+.ds4 .face {
+    background: url(dpad.png);
+    position: absolute;
+}
