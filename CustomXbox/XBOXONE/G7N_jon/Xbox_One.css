@@ -17,7 +17,8 @@
 
  .custom .triggers{ 
     position: absolute;
-    background-repeat:no-repeat;
+    background-repeat:no-repeat; 
+    filter: brightness(0.5);
 } 
 
 .custom .trigger{
@@ -48,6 +49,7 @@
 
 .custom .bumper.pressed{ 
     opacity: 1;
+    filter: brightness(0.5);
 }
 
 .custom .bumper.right{
@@ -78,11 +80,13 @@
 .custom .back{
     opacity: 0;
     position: absolute;
+    filter: brightness(0.5);
 }
 
 .custom .start{
     opacity: 0;
     position: absolute;
+    filter: brightness(0.5);
 }
 
 .custom .back.pressed{
@@ -116,6 +120,7 @@
 .custom .button.pressed{
     background-position-y: -00px;
     margin-top: 0px;
+    filter: brightness(0.5);
 }
 
 .custom .a.pressed{
@@ -147,8 +152,8 @@
 }
 
 .custom .sticks{    
-    left: 206px;
-    top:318px;
+    left: 205px;
+    top:357px;
     position: absolute;
     background-repeat:no-repeat;
 }
@@ -163,6 +168,7 @@
     height: 148px;
     width: 148px;
     background-repeat:no-repeat;
+    filter: saturate(20%);
 }
 
 .custom .stick.pressed.right{
@@ -171,6 +177,7 @@
     height: 148px;
     width: 148px;
     background-repeat:no-repeat;
+    filter: saturate(20%);
 }
 
 .custom .stick.left{
@@ -184,8 +191,8 @@
 .custom .stick.right{
     position: absolute;
     background: url(RS.png);
-    left: 471px;
-    top: 184px;
+    left: 458px;
+    top: 178px;
     height: 148px;
     width: 148px;
     background-repeat:no-repeat;
@@ -195,6 +202,7 @@
     height: 1034px;
     width: 1182px;
     background-repeat:no-repeat;
+    filter: brightness(0.5);
 }
 
 .custom .face{
