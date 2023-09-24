@@ -1,7 +1,7 @@
 /*BEGIN XBOX SX Controller Styling*/
 
 .controller.custom{
-    background: url(base.gir); 
+    background: url(base.gif); 
     height: 991px;
     width: 1182px;
     background-repeat:no-repeat;
@@ -140,23 +140,18 @@
 }
 
 .custom .y.pressed{
-    background: url(T.png) ; 
+    background: url(T.png); 
     height: 991px;
     width: 1182px;
     background-repeat:no-repeat;
 }
 
-.custom .meta{
-    opacity: 1;
+.custom .quadrant {
     position: absolute;
-}
-
-.custom .meta.pressed{
-    background: url(name.png) ; 
-    height: 1080px;
-    width: 1440px;
-    background-repeat:no-repeat;
-
+    background: url(name.png);
+    height: 991px;
+    width: 1182px;
+    opacity: 0.6;
 }
 
 .custom .sticks{    
