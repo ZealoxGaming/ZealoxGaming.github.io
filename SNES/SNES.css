@@ -1,0 +1,188 @@
+/*BEGIN SNES Controller Styling*/
+
+.controller.custom{
+    background: url(base.svg); 
+    height: 600px;
+    width: 800px;
+    background-repeat:no-repeat;
+}
+
+.custom.disconnected { 
+    background: url(disconnected.svg);
+}
+
+.custom.disconnected div {
+    display: none;
+}
+
+ .custom .triggers{ 
+    position: absolute;
+    background-repeat:no-repeat;
+} 
+
+.custom .trigger{
+    height: 600px;
+    width: 800px;
+    background-repeat:no-repeat;
+}
+
+.custom .trigger.left{ 
+    height: 600px;
+    width: 800px;
+    background: url(L2.svg);
+    position: absolute;
+    background-repeat:no-repeat;
+}
+
+.custom .trigger.right{
+    height: 600px;
+    width: 800px;
+    background: url(R2.svg);
+    position: absolute;
+    background-repeat:no-repeat;
+}
+
+.custom .bumper{
+    opacity: 0;
+}
+
+.custom .bumper.pressed{ 
+    opacity: 1;
+}
+
+.custom .bumper.right{
+    height: 600px;
+    width: 800px;
+    background: url(R1.svg);
+    position: absolute;
+    background-repeat:no-repeat;
+}
+
+.custom .bumper.left{
+    height: 600px;
+    width: 800px;
+    background: url(L1.svg);
+    position: absolute;
+    background-repeat:no-repeat;
+}
+
+.custom .arrows{
+    position: absolute;
+    width: 205px;
+    height: 19px;
+    top: 250px;
+    left: 291px;
+    background-repeat:no-repeat;
+}
+
+.custom .back{
+    opacity: 0;
+    position: absolute;
+}
+
+.custom .start{
+    opacity: 0;
+    position: absolute;
+}
+
+.custom .back.pressed{
+    height: 600px;
+    width: 800px;
+    left: -291px;
+    top: -250px;
+    background: url(Share.svg);
+    position: absolute;
+    opacity: 1;
+} 
+
+.custom .start.pressed{
+    height: 600px;
+    width: 800px;
+    left: -291px;
+    top: -250px;
+    background: url(Options.svg);
+    opacity: 1;
+}
+
+.custom .abxy{
+    position: absolute;
+    background-repeat:no-repeat;
+}
+
+.custom .button{
+    position: absolute;
+}
+
+.custom .button.pressed{
+    background-position-y: -00px;
+    margin-top: 0px;
+}
+
+.custom .a.pressed{
+    background: url(X.svg); 
+    height: 600px;
+    width: 800px;
+    background-repeat:no-repeat;
+}
+
+.custom .b.pressed{
+    background: url(O.svg);
+    height: 600px;
+    width: 800px;
+    background-repeat:no-repeat;
+}
+
+.custom .x.pressed{
+    background: url(S.svg); 
+    height: 600px;
+    width: 800px;
+    background-repeat:no-repeat;
+}
+
+.custom .y.pressed{
+    background: url(T.svg) ; 
+    height: 600px;
+    width: 800px;
+    background-repeat:no-repeat;
+}
+
+.custom .dpad{
+    height: 600px;
+    width: 800px;
+    background-repeat:no-repeat;
+}
+
+.custom .face{
+    background: url(dpad.svg);
+    position: absolute;
+}
+
+.custom .face.right.pressed{
+    background: url(RIGHT.svg); 
+    height: 600px;
+    width: 800px;
+    background-repeat:no-repeat;
+}
+
+.custom .face.left.pressed{
+    background: url(LEFT.svg); 
+    height: 600px;
+    width: 800px;
+    background-repeat:no-repeat;
+}
+
+.custom .face.up.pressed{
+    background: url(UP.svg); 
+    height: 600px;
+    width: 800px;
+    background-repeat:no-repeat;
+}
+
+.custom .face.down.pressed{ 
+    background: url(DOWN.svg); 
+    height: 600px;
+    width: 800px;
+    background-repeat:no-repeat;
+}
+
+/*END SNES Controller Styling*/
