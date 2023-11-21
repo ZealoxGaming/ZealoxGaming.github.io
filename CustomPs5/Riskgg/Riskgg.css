@@ -191,8 +191,8 @@
 .custom .stick.right{
     position: absolute;
     background: url(Sticks/RS.png);
-    left: 405px;
-    top: 1px;
+    left: 404px;
+    top: 2px;
     height: 152px;
     width: 152px;
     background-repeat:no-repeat;
