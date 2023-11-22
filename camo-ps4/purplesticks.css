@@ -1,7 +1,9 @@
 /*BEGIN PS4 Controller Styling*/
 
-.ds4 .stick {
-    background-image: url(https://imgur.com/a/KaFelS1.png);
-}
+
+.ds4 .stick {
+    background-image: url(sticksp.png);
+}
+
 
 /*END PS4 Controller Styling*/
