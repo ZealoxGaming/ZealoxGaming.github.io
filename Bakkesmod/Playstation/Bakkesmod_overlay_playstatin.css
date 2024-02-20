@@ -1,0 +1,138 @@
+/*BEGIN Bakkesmod Overlay Styling*/
+
+.controller.custom{
+    background: url(Base.png); 
+    height: 400px;
+    width: 686px;
+    background-repeat:no-repeat;
+}
+
+.custom.disconnected { 
+    background: url(disconnected.png);
+}
+
+.custom.disconnected div {
+    display: none;
+}
+
+ .custom .triggers{ 
+    position: absolute;
+    background-repeat:no-repeat;
+} 
+
+.custom .trigger{
+    height: 400px;
+    width: 686px;
+    background-repeat:no-repeat;
+}
+
+.custom .trigger.left{ 
+    height: 400px;
+    width: 686px;
+    background: url(L2.png);
+    position: absolute;
+    background-repeat:no-repeat;
+}
+
+.custom .trigger.right{
+    height: 400px;
+    width: 686px;
+    background: url(R2.png);
+    position: absolute;
+    background-repeat:no-repeat;
+}
+
+.custom .bumper{
+    opacity: 0;
+}
+
+.custom .bumper.pressed{ 
+    opacity: 1;
+}
+
+.custom .bumper.right{
+    height: 400px;
+    width: 686px;
+    background: url(R1.png);
+    position: absolute;
+    background-repeat:no-repeat;
+}
+
+.custom .bumper.left{
+    height: 400px;
+    width: 686px;
+    background: url(L1.png);
+    position: absolute;
+    background-repeat:no-repeat;
+}
+
+.custom .abxy{
+    position: absolute;
+    background-repeat:no-repeat;
+}
+
+.custom .button{
+    position: absolute;
+}
+
+.custom .button.pressed{
+    background-position-y: -00px;
+    margin-top: 0px;
+}
+
+.custom .a.pressed{
+    background: url(X.png); 
+    height: 400px;
+    width: 686px;
+    background-repeat:no-repeat;
+}
+
+.custom .b.pressed{
+    background: url(O.png);
+    height: 400px;
+    width: 686px;
+    background-repeat:no-repeat;
+}
+
+.custom .x.pressed{
+    background: url(S.png); 
+    height: 400px;
+    width: 686px;
+    background-repeat:no-repeat;
+}
+
+.custom .y.pressed{
+    background: url(T.png) ; 
+    height: 400px;
+    width: 686px;
+    background-repeat:no-repeat;
+}
+
+.custom .sticks{    
+    left: 80px;
+    top: 210px;
+    position: absolute;
+    background-repeat:no-repeat;
+}
+
+.custom .stick.{
+    position: absolute;
+}
+
+.custom .stick.pressed.left{
+    position: absolute;
+    background: url(StickPress.png);
+    height: 115px;
+    width: 115px;
+    background-repeat:no-repeat;
+}
+
+.custom .stick.left{
+    position: absolute;
+    background: url(Stick.png);
+    height: 115px;
+    width: 115px;
+    background-repeat:no-repeat;
+}
+
+/*END Bakkesmod Overlay Styling*/
