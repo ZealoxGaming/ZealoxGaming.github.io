@@ -1,5 +1,95 @@
-/*BEGIN PS4 White Controller Styling*/
-.controller.ds4.white {
-    background-image: url(https://imgur.com/fXhq7s2.png);
+/* Custom Keyframes */
+
+/* Light Bar Pulse (to simulate a gentle light glow) */
+@keyframes lightbar-pulse {
+    0% {
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 15px rgba(255, 165, 0, 0.4);
+    }
+    100% {
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    }
 }
-/*END PS4 White Controller Styling*/
+
+/* Gingerbread Jiggle (to simulate a soft, freshly baked item) */
+@keyframes gingerbread-jiggle {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-0.5deg);
+    }
+    50% {
+        transform: rotate(0.5deg);
+    }
+    75% {
+        transform: rotate(-0.5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* Candy Swirl Rotation */
+@keyframes stick-rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* --- Original Styling with Animations Applied --- */
+.controller.ds4.white {
+    background-image: url(https://imgur.com/22fWQYk.png);
+    animation: gingerbread-jiggle 5s ease-in-out infinite;
+}
+
+.ds4.white.disconnected {
+    background: url();
+}
+
+.ds4.white .lightbar {
+    animation: lightbar-pulse 2s ease-in-out infinite;
+}
+
+.ds4.white .trigger {
+    background-image: url(https://imgur.com/AMemcTW.png);
+}
+
+.ds4.white .bumper {
+    background-image: url(https://imgur.com/fXG1tPF.png);
+}
+
+.ds4.white .touchpad.pressed {
+    background-image: url(ps4-white-assets/touchpad.svg);
+}
+
+.ds4.white .back, .ds4 .start {
+    background-image: url();
+}
+
+.ds4.white .button {
+    background-image: url(https://imgur.com/9BLKZlw.png);
+    transition: transform 0.1s ease-out;
+}
+
+.ds4.white .button:active {
+    transform: scale(0.95);
+}
+
+.ds4.white .stick {
+    background-image: url(https://imgur.com/ScDHJ87.png);
+    /* Apply the slow, continuous rotation */
+    animation: stick-rotate 10s linear infinite;
+    /* Crucial: Ensure the rotation is centered */
+    transform-origin: center center; 
+}
+
+.ds4.white .face {
+    background-image: url(https://imgur.com/x222Fki.png);
+}
