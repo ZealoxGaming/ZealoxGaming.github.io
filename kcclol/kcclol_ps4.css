@@ -13,25 +13,6 @@
     }
 }
 
-/* Gingerbread Jiggle (to simulate a soft, freshly baked item) */
-@keyframes gingerbread-jiggle {
-    0% {
-        transform: rotate(0deg);
-    }
-    25% {
-        transform: rotate(-0.5deg);
-    }
-    50% {
-        transform: rotate(0.5deg);
-    }
-    75% {
-        transform: rotate(-0.5deg);
-    }
-    100% {
-        transform: rotate(0deg);
-    }
-}
-
 /* Candy Swirl Rotation */
 @keyframes stick-rotate {
     from {
@@ -42,15 +23,13 @@
     }
 }
 
-
 /* --- Original Styling with Animations Applied --- */
 .controller.ds4.white {
     background-image: url(https://imgur.com/22fWQYk.png);
-    animation: gingerbread-jiggle 5s ease-in-out infinite;
 }
 
 .ds4.white.disconnected {
-    background: url();
+    background: url((ps4-assets/disconnected.svg);
 }
 
 .ds4.white .lightbar {
